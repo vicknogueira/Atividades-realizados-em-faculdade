@@ -1,0 +1,11 @@
+1) Salvar o arquivo atividade2_corrigir e completar.zip na máquina;
+2) Descompactar o arquivo atividade2_corrigir e completar.zip na máquina;
+3) Abrir o arquivo index.html no editor brackets;
+4) Abrir o arquivo index.html no navegador com o live preview do editor brakets; 
+5) Abrir o arquivo style.css no editor brackets;
+6) Preencher o código CSS no arquivo style.css de acordo com o arquivo style_css_completo.tif
+7) Comentar em cada linha CSS para que serve o comando e como ele alterará a página index.html.
+8) Preencher corretamente as tags meta;
+9) Comentar as tags HTML que você já conhece (incluindo todas as tags meta), explicando para que serve cada uma delas;
+10) Alterar o código do arquivo index.html e o código do arquivo style.css para criar um novo site com o tema previamente escolhido por você (mesmo da atividade 1);
+11) Salvar este projeto pois valerá nota e deverá ser entregue para o professor (aguarde o aviso do prazo).

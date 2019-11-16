@@ -1,0 +1,300 @@
+/* 
+
+COMPLETAR O CÓDIGO PREENCHENDO CADA SELETOR 
+DE ACORDO COM O ARQUIVO STYLE_CSS_COMPLETO.tif
+
+*/
+
+body{   /* Corpo do site */
+    margin: 0px;    /* deixa sem a margem de cima*/             
+    padding: 0px;   /* deixa sem  */
+    background: repeat-x left top; /* Uma imagem de fundo que é repetida na reta "X", esquerda e em cima. Formando o cabeçalho (header) */
+    font: 13px Arial, Helvetica, sans-serif; /* fonte com formatos da letra e tamanhos que site deve seguir  */
+    color: #212121;   /* Cor da letra que o site irá seguir */
+}
+h1, h2, h3{ /* Cabeçalhos */
+    margin-top: 0px;    /* deixa sem a margem de cima dos 3 cabeçalhos */
+}
+h1{ /* Cabeçalho */
+    font-size: 3.4em;  /* Tamanho da letra de um cabeçalho */
+}
+h2{ /* Cabeçalho */
+    font-size: 1.8em;   /* Tamanho da letra de um cabeçalho */
+}
+h3{ /* Cabeçalho */
+    font-size: 1.4em;   /* Tamanho da letra de um cabeçalho */
+}
+p, ol, ul{  /* Chamando o parágrafo(p), ol e ul  */
+    margin-bottom: 1.8em;   /* Aumenta a Margem de baixo dos textos */
+    line-height: 160%;      /* Altura da linha dos conteúdos */
+    font-family: sans-serif;
+    list-style-type: square;
+}
+a{
+    color: #bd6e19;     /* Cor da letra dos textos da tag <a> */
+}
+a:hover{ /* Ele pega todos os as tags <a> e coloca um evento ":hover" que seria uma ação que acontecerá quando o mouse passar por cima desse elemento específico*/
+    text-decoration: none;  /* sem nenhuma decoração de texto quando o mouse passar por cima de elemento  */
+    color: #ff8400;     /* Cor da letra quando o mouse passar por cima do elemento */
+}
+a img{  /* Acessando a tag <img> (que serve pra colocar imagens) que esta dentro da tag <a> */
+    border: none;   /* sem nenhuma borda em torno do elemento da imagem */
+}
+/* HEADER*/
+
+#header{    /* Com "#" se acessa um "Id" que nesse caso se chama "header" (que seria o topo onde se faz o cabeçalho de um site) e está numa tag <div> da HTML  */
+    width: 100%;      /* Largura de 900 pixels do header */
+    height: 130px;      /* Altura  de 130 pixels do header  */
+    margin: 0px auto;   /* Tira a margem da esquerda do header */
+    background: #480000;    /* Cor de fundo da header */
+}
+
+#header a{  /* Usa o "id" que acessa a tag "a" que esta numa tag "<div>" específica */
+    text-decoration: none; /* Sem decoração de texto */
+    color: #ffffff; /* Cor da letra: Branco */
+}
+.log {
+    box-shadow: inset 0 0 10px 3px #650c0c; /* insere uma borda com definição de espessura e uma cor para ela */
+    border-radius: 4px;
+}
+/* LOGO */
+
+#logo{  /* Uma "id" chamada "logo" que esta numa tag <div> */
+    float: left; /* Faz com que o logo flutue para a esquerda */
+    background: no-repeat  left top; /* Coloca uma imagem de fundo que esta localizada numa "url" e diz para ela não repetir(no-repeat), em seguida da as seguintes posições: ir para a esquerda (left) e subir(top). */
+    padding-left: 70px; /* Preenche a esquerda do logo com 70 pixels */
+}
+
+#logo h1, #logo p{  /* Usa o "id" acessa o cabeçalho <h1> e o parágrafo <p> específico*/
+    margin: 0px;    /* deixa o cabeçalho e parágrafo com 0 pixels de margem */
+    line-height: normal;    /* Deixa a altura da linha do cabeçalho e parágrafo como "normal" */
+    font-weight: normal;    /* Deixa a espessura da fonte do cabeçalho parágrafo como "normal" */
+    color: #ffffff; /*  Cor da letra: branco  */
+}
+
+#logo h1{   /* Usa o "id" para acessar um cabeçalho <h1> específico */
+    padding: 27px 0px 0px 0px;  /* Preeche o topo do logo do cabeçalho com 25 pixels e apenas a esquerda, direita e em baixo com 0 pixels. */
+    font-family: Imprint MT Shadow;
+    font-size: 45px;
+}
+
+/* MENU */
+
+#menu{   /* Uma "id" chamada "menu" que esta numa tag <div> */
+    float: right; /* Flutua o menu da página para a direita */
+    background: #842727; /* Dá uma cor para o fundo da página */
+    border-top: 2px #c56f6f solid;  /* Coloca uma borda no topo do menu de 2 pixels sólida com uma cor específica */
+    margin: 39px 21px 0 0; /* Coloca uma margem no topo do menu de 30 pixels e deixa a esquerda, direita e em baixo com 0 pixels. */
+}
+
+#menu ul{  /* Usa o "id" para acessar uma tag <ul> específico */
+    margin: 0px 0 0 0;  /* Coloca uma mergem de 0 pixels nessa tag*/
+    padding: 0px 0px 0px 0px; /* Preenche os lados dessa tag com 0 pixels  */
+    list-style: none;   /* Deixa sem nenhum estilo de lista */
+    line-height: normal;    /* deixa a altura da linha como normal */
+}
+
+#menu li{  /* Usa o "id" para acessar uma tag <li> específico */
+    float: left;
+    margin: 0px 0px 0px 1px;
+}
+
+#menu a{    /* Usa o "id" para acessar uma tag <a> específica */
+    display: block; /* Organiza as tag <a> em bloco dentro do menu */
+    width: auto;    /* Coloca uma largura automática */
+    height: 28px;   /* Uma altura de 28 pixels no <a> */
+    padding: 12px 20px 0px 20px;    /* Preenche com 12 pixels no topo, 20 pixels para esquerda, 0 pixels em baixo e 20 pixels para a direita */
+    background:  no-repeat right 50%; /* Coloca uma imagem de fundo que esta localizada numa "url" e diz para ela não repetir(no-repeat), em seguida da as seguintes posições: ir para a direita (right) e move 50 % */
+}
+
+#menu a:hover{  /* Usa o "id" para acessar a tag <a> e coloca um evento ao passar o mouser por cima do elemento (:houver =  flutuar)  */
+     text-decoration: underline; /* Esse evento é uma decoração de texto em baixo da linha, ou seja, uma linha que aparecerá em baixo do elemento <a> quando o mouser passar por cima. */
+}
+
+#menu .first{   /* Usa o "id" para acessar a classe ".firts" que esta numa tag <li> específico */
+    background: none;   /* Deixa o fundo do <li> sem cor */
+}
+
+#menu .active a{    /* Usa o "id" para acessar a classe ".active" e acessar dentro dela a tag <a> específico */
+/*    FORMATAÇÃO PESSOAL */
+    font-family: monospace;
+}
+
+/* PAGE */
+
+#page{  /* Acessa uma "id" chamada "page" */
+    width: 900px;   /* Coloca uma largura de 900 pixels na página que modifica apenas a parte do conteúdo.  */
+    margin: 0px auto;   /* Coloca uma margem de 0 pixels */
+    padding: 30px 0px;  /*  Preenche o topo com 30 pixels  */
+}
+.comments{
+    color: #480000;
+}
+.comments:hover{ /* ":hover" um evento que acontece quando passa o mouser por cima de um elemento */
+    color: #842727;
+}
+/* CONTENT */
+
+#content{   /* Acessa uma "id" chamada "content" */
+    float: right;   /* flutua ou move uma parte do conteúdo da página para a direita */
+    width: 570px;   /*  Coloca uma largura de 570 pixels  */
+}
+
+.post{  /* Uma classe */
+    margin: 0px 0px 30px 0px;   /* Coloca uma margem com 30 pixels na parte de baixo de um elemento e os restantes dos lados com 0 pixels */
+}
+
+.post .title{   /*  Uma classe chamada ".post" que acessa uma outra classe chamada "title" que esta dentro de um cabeçalho <h1>  */
+    margin: 0px;    /* Margem de 0 pixels no <h1> */
+    padding: 0px 0px 5px 0px;   /* Preenche a parte de baixo do <h1> com 5 pixels */
+    border-bottom: #BFC9AE solid 1px;   /* Coloca uma borda de baixo do <h1> com 1 pixel sólido e uma cor */
+    color: #000000;
+    font-family: Harlow Solid;
+}
+
+.post .title a{ /*  Uma classe chamada ".post" que acessa uma outra classe chamada "title" que acessa a tag <a> */
+    color: #232F01; /* Cor da letra */
+}
+
+.post .entry{   /* Usa a classe ".post" para acessar a classe ".entry" */
+/*    FORMATAR NO FINAL, SE NECESSÁRIO*/
+}
+
+.post .meta{    /* Usa a classe ".post" para acessar a classe ".meta" */
+    font-weight: bold;  /* Coloca uma espessura negrito(bold) pra fonte  */
+}
+
+.post .byline{  /* Usa a classe ".post" para acessar a classe ".byline" */
+    margin: 0px;  /* Uma margem de 0 pixels */
+}
+
+/* SIDEBAR */
+
+#sidebar{   /* Uma id chamada "sidebar" */
+    float: left;    /* Flutua ou move para a esquerda um elemento  */
+    width: 300px;   /* Coloca um largura de 300 pixels um elemento */
+}
+
+#sidebar-bgtop{ /* Uma id chamada "siderbar-bgtop" */
+    height: 3px;    /* Coloca uma altura de 3 pixels  */
+}
+
+#sidebar-bgbtm{ /* Uma id chamada "sidebar-bgbtm" */
+    height: 3px;    /* Coloca uma altura de 3 pixels  */
+}
+
+#sidebar-content{ /* Uma id chamada "sidebar-content" */
+    padding: 20px;  /* Coloca um preenchimento de 20 pixels  */
+}
+
+#sidebar ul{    /* Usa o id  para acessar uma tag <ul> específico*/
+    margin: 0px;    /* Coloca uma margem de 0 pixels */
+    padding: 0px;   /* Preenche com 0 pixels */
+    list-style: none;   /* Deixa a lista sem estilo */
+}
+
+#sidebar li ul{     /* Usa o id  para acessar uma tag <li> e <ul> específico*/
+    margin-bottom: 1.8em;  /* Coloca uma margem em baixo de um elemento */
+    padding-left: 20px; /* Preenche a esquerda desse elemento com 20 pixels */
+    list-style: square;  /* Deixa com estilo de lista, um símbolo quadrado */
+}
+
+#sidebar h2{    /* Usa o id chamado "sidebar" e acessa a tag <h2> específico */
+    padding: 4px 20px;  /* Preenche o <h2> com 4 pixels em cima e 20 pixels na esquerda */
+    background: #480000;    /* Coloca uma cor no fundo do <h2>  */
+    font-size: 1.2em;   /* Coloca um tamanho no <h2> */
+    color: #ffffff; /* Cor da letra do <h2> */
+}
+
+#sidebar a{ /* Usa o id para acessar uma tag <a> específica */
+    text-decoration: none;  /* deixa sem decoração de texto */
+    color: #232F01; /* Cor da letra do <a> */
+}
+
+#sidebar a:hover{   /* Usa o id para acessar a tag <a> e dar um evento ao passar o mouser sobre o elemento (:houver)*/
+    text-decoration: underline; /* Esse evento é uma decoração de texto em baixo da linha */
+}
+
+/* SEARCH */
+
+#search{    /* Uma id chamada "search" */
+/*    FORMATAR NO FINAL SE NECESSARIO */
+}
+
+#search form{ /* Usa o id para acessar uma tag <form> específica */
+    margin-bottom: 1.8em;   /* Coloca uma margem em baixo do formulário com uma valor de 1.8 em */
+    padding: 0px;   /* Preenche o formulário com 0 pixels  */
+}
+
+#search fieldset{   /* Usa o id para acessar uma tag <fieldset> específica */
+    margin: 0px;    /* Coloca uma margem de 0 pixels */
+    padding: 0px;   /* Preenche com 0 pixels */
+    border: none;   /* Deixa sem borda */
+}
+
+#search #s{ /* Usa a id "search" para a acessar uma outra id "s" */
+    width: 182px;   /* Coloca um largura de 160 pixels */
+    border-radius: 2px;
+    border: 1px solid gray;
+    height: 18px;
+}
+.inpu{
+    background-color: #842727;
+    border: 0;
+    border-radius: 2px;
+    height: 22px;
+}
+
+/* FOOTER */
+
+#footer{    /* Uma id chamada "footer" */
+    clear: both;    /* Limpa ambos ( o elemento é apagado do site) */
+    width: 900px;   /* Coloca uma largura de 900 pixels  */
+    height: 50px;   /* Coloca uma altura de 50 pixels */
+    margin: 0px auto 30px auto; /* Coloca uma margem de 0 pixels em cima e 30 pixels na esquerda */
+    color: #ffffff; /* Cor da letra */
+    background: #480000;    /* Cor de fundo do elemento */
+}
+
+#footer p{  /* Usa o id para acessar a tag <p> */
+    margin: 0px;    /* Coloca uma margem de pixels */
+    padding: 19px 0px 0px 0px;  /* Preeche com 19 pixels na parte de cima do parágrafo e os outros lados com 0 pixels  */
+    text-align: center; /* Alinha o texto no centro */
+    line-height: normal;    /* Coloca uma altura normal */
+    font-size: smaller; /* Coloca um tamanho pequeno para o texto */
+}
+
+#footer a{  /* Usa o id para acessar a tag <a> */
+    color: #ffffff; /* Cor da letra: branco */
+}
+/* --------------------------- SIGNO ------------------------------------------ */
+.blocos div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+/* 
+.Áries:hover{
+
+}
+img:hover{
+}
+.Touro{
+
+}
+.Gêmeos{
+
+}
+.Câncer{
+
+}
+.Leão{
+
+}
+.virgem{
+
+}
+.libra{
+    margin-left: 2px;
+} */
